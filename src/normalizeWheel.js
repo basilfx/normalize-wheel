@@ -12,9 +12,9 @@
 
 'use strict';
 
-var UserAgent_DEPRECATED = require('UserAgent_DEPRECATED');
+var UserAgent_DEPRECATED = require('./UserAgent_DEPRECATED');
 
-var isEventSupported = require('isEventSupported');
+var isEventSupported = require('./isEventSupported');
 
 
 // Reasonable defaults

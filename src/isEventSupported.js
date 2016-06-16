@@ -11,7 +11,7 @@
 
 'use strict';
 
-var ExecutionEnvironment = require('ExecutionEnvironment');
+var ExecutionEnvironment = require('./ExecutionEnvironment');
 
 var useHasFeature;
 if (ExecutionEnvironment.canUseDOM) {

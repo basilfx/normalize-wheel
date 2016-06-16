@@ -1,6 +1,6 @@
 {
   "name": "normalize-wheel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Mouse wheel normalization across multiple multiple browsers.",
   "main": "index.js",
   "scripts": {
