@@ -3,7 +3,11 @@
   "version": "1.0.1",
   "description": "Mouse wheel normalization across multiple multiple browsers.",
   "main": "index.js",
+  "module": "lib/esm/src/normalizeWheel.js",
+  "browser": "lib/esm/src/normalizeWheel.js",
   "scripts": {
+    "build": "npm run build:esm",
+    "build:esm": "cjstoesm src/**/*.* lib/esm",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -12,5 +16,8 @@
     "browser"
   ],
   "author": "Bas Stottelaar",
-  "license": "BSD-3-Clause"
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "cjstoesm": "^1.1.4"
+  }
 }
